@@ -53,7 +53,7 @@ def process_pdf_ocr(pdf_path, output_dir, task_id):
         import torch
         import re
 
-        model_path = 'C:/Users/WWWWG/Desktop/DeepSeek-OCR-main/huggingface/hub/models--deepseek-ai--DeepSeek-OCR/snapshots/9f30c71f441d010e5429c532364a86705536c53a'
+        model_path = './DeepSeek-OCR-main/huggingface/hub/models--deepseek-ai--DeepSeek-OCR/snapshots/9f30c71f441d010e5429c532364a86705536c53a'
 
         print(f"[{task_id}] 开始处理PDF...")
 
